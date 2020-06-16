@@ -36,3 +36,9 @@ https://github.com/streamaserver/streama
 https://opndir.com/
 
 https://forums.openpli.org/forum/52-en-rytec-xmltv-and-epg-support/
+
+http://epg.streamstv.me/epg/
+
+https://www.xspf.org/applications/
+
+
