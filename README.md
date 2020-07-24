@@ -44,3 +44,5 @@ http://epg.streamstv.me/epg/
 https://www.xspf.org/applications/
 
 http://iptv-world-link.blogspot.com/
+
+https://tutorial-iptv-xbmc.blogspot.com/
