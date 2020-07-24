@@ -7,6 +7,8 @@ http://streamstat.net/main.cgi?mode=hls&fp=50
 
 https://streamtest.in/
 
+https://www.hlstester.com/
+
 https://jsonformatter.org/
 
 http://siptv.eu/converter/
@@ -41,4 +43,4 @@ http://epg.streamstv.me/epg/
 
 https://www.xspf.org/applications/
 
-
+http://iptv-world-link.blogspot.com/
