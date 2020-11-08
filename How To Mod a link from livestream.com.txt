@@ -1,0 +1,43 @@
+﻿
+How To Mod a link from livestream.com
+
+any channel from https://livestream.com/watch should be working...
+
+exemple:
+
+RADIO 21 - bester ROCK 'N POP RADIO 21 TV
+
+https://livestream.com/accounts/22300508/events/6675945
+
+
+you will get HLS Stream as:  but its an expirable link
+
+masterManifest	
+https://playback.akamaized.net/streams/22300508_6675945_lsiz22zkgyq39o619cu_1/master.m3u8?dw=14400&hdnts=exp=1604878488~acl=/streams/22300508_6675945_lsiz22zkgyq39o619cu_1/master.m3u8*~hmac=e9c9f0d653f6f55be21239bab7f642eefcf7ae721f4a7b3f6b4d84f0b1b2da40
+mediaManifest	
+https://playback.akamaized.net/streams/22300508_6675945_lsiz22zkgyq39o619cu_1/media/22300508_6675945_lsiz22zkgyq39o619cu_1@2128000p.m3u8?dw=14400&ts=1604876400&hdnts=exp=1605050988~acl=/streams/22300508_6675945_lsiz22zkgyq39o619cu_1/media*~hmac=ed1dc2719cdd65585fb8aeafe653da3b37be6849564271988c3024e11c52d786
+
+but wont last long and you will need to get another link everytime it expire .
+
+now the trick :
+
+link to the stream:
+https://livestream.com/accounts/22300508/events/6675945
+
+change it to :
+https://api.new.livestream.com/accounts/22300508/events/6675945/live.m3u8
+
+
+
+get image from account .. code the link in your m3u/m3u8 file ...
+
+#EXTINF:-1 tvg-logo="https://img.new.livestream.com/events/000000000065dde9/ea46c914-d50e-4eb1-8eb1-6c3ccf064802.jpg" group-title="Music",RADIO 21 TV
+https://api.new.livestream.com/accounts/22300508/events/6675945/live.m3u8
+
+note: that it could be possible for temporary stream that modding the url does`nt work i did`nt tested them all .. but those ive tested worked 100%
+
+
+
+
+
+
