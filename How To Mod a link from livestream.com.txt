@@ -19,6 +19,17 @@ https://playback.akamaized.net/streams/22300508_6675945_lsiz22zkgyq39o619cu_1/me
 
 but wont last long and you will need to get another link everytime it expire .
 
+and u can find the account and event channel
+
+https://playback.akamaized.net/streams/22300508_6675945
+
+22300508_6675945
+
+/accounts/22300508/events/6675945
+
+so if you come accross a hidden account you may found it :)
+
+
 now the trick :
 
 link to the stream:
@@ -36,9 +47,14 @@ https://api.new.livestream.com/accounts/22300508/events/6675945/live.m3u8
 
 note: that it could be possible for temporary stream that modding the url does`nt work i did`nt tested them all .. but those ive tested worked 100%
 
+if it dont  this is tick no.2
+ 
+other stream u need to look the source code and search "api"  and find the /broadcasts/???????????.m3u8 link in it , such as this:
+http://api.new.livestream.com/accounts/xxxxxx/events/xxxxxx/broadcasts/xxxxxxxx.m3u8
 
-other stream u need to look the source code and search "api"  and find the m3u8 link in it , such as this:
-http://api.new.livestream.com/accounts/xxxxxx/events/xxxxxx/broadcasts/xxxxxxxx.m3u8 
+exemple:
+http://api.new.livestream.com/accounts/22300508/events/6675945/broadcasts/213090029.m3u8
+
 this one normaly work
 
 note those wont work :
